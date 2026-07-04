@@ -1,0 +1,6 @@
+{
+  "name": "APK Builder",
+  "description": "Vercel-style APK Builder using GitHub Actions and Cordova",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
