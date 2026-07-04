@@ -169,6 +169,8 @@ export default function BuilderApp() {
                                 addAppHistory(newApp).then(() => {
                                   getAppHistory().then(setHistory);
                                 });
+                                // Automatically trigger download
+                                window.location.href = parsed.downloadUrl;
                             }
                         }
                         if (parsed.error) {
